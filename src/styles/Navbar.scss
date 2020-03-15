@@ -1,0 +1,30 @@
+.navbar{
+display: flex;
+align-items: center;
+background: antiquewhite;
+padding: 0 2rem;
+}
+.navbar-logo{
+
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    width: 10rem;
+}
+.navbar-item{
+    width: 6rem;
+    text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+&:hover,
+&:focus {  
+    height: 4px;
+}
+&[aria-current="page"] {
+    font-weight: bold;
+
+  }
+}
